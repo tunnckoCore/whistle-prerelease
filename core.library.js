@@ -94,13 +94,13 @@ $('.wminimize').click(function(e) {
     var $wcontent = $(this).parent().parent().next('.widget-content');
     if ($wcontent.is(':visible'))
     {
-        $(this).children('i').removeClass('icon-chevron-up');
-        $(this).children('i').addClass('icon-chevron-down');
+        $(this).children('i').removeClass('fa fa-chevron-up');
+        $(this).children('i').addClass('fa fa-chevron-down');
     }
     else
     {
-        $(this).children('i').removeClass('icon-chevron-down');
-        $(this).children('i').addClass('icon-chevron-up');
+        $(this).children('i').removeClass('fa fa-chevron-down');
+        $(this).children('i').addClass('fa fa-chevron-up');
     }
     $wcontent.toggle(500);
 });
